@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Octopus Systems BR</title>
+    <link rel="icon" type="image/png" href="octopussystemsbr.png" />
+    <style>
+      :root {
+        --azul-escuro: #0d2a45;
+        --azul-gradiente: #1c4b7f;
+        --ciano: #11c5bb;
+        --branco: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      body {
+        background: radial-gradient(circle at top, var(--azul-gradiente) 0%, var(--azul-escuro) 90%);
+        color: var(--branco);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 2rem;
+      }
+
+      header img {
+        width: 160px;
+        height: auto;
+        margin-bottom: 1.5rem;
+        filter: drop-shadow(0 0 12px rgba(17, 197, 187, 0.8)) brightness(1.15);
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: var(--ciano);
+        margin-bottom: 2.2rem;
+      }
+
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+        header img {
+          width: 110px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="octopussystemsbr.png" alt="Logo Octopus Systems" />
+      <h1>Octopus Systems BR</h1>
+      <p>Soluções tecnológicas para o mundo dos negócios</p>
+    </header>
+
+    <footer>
+      © 2025 Octopus Systems BR — Desenvolvendo tecnologia inteligente para o futuro.
+    </footer>
+  </body>
+</html>
